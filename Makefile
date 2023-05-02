@@ -1,5 +1,5 @@
 program: main.cpp
-	g++ -g main.cpp -o fltk-gui
+	g++ -g -lfltk main.cpp -o fltk-gui
 
 .PHONY: clean
 
